@@ -89,7 +89,7 @@ body {
 
 #container {
     width: 1440px;
-    height: 750px;
+    height: 950px;
     margin: 0 auto;
     color: white;
     text-align: center;
@@ -104,6 +104,10 @@ body {
 #container a:visited {
     color: white;
     text-decoration: none;
+}
+
+#container a:hover {
+    text-decoration: underline;
 }
 
 #container h1 {
@@ -129,8 +133,8 @@ body {
 
 #main {
     margin: auto;
-    margin-top: 20%;
-    margin-bottom: 20%;
+    margin-top: 5%;
+
 }
 
 #text {
