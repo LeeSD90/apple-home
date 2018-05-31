@@ -2,7 +2,7 @@
 	margin: 0;
 }
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
   	font-size: small;
   	height: 100%;
   	margin: 0;
@@ -12,9 +12,11 @@ body {
 /* Header */
 
 #navbar {
+    position: relative;
+    top: 20px;
     width: 980px;
     height: 36px;
-    margin: 20px auto;
+    margin: 0 auto;
     background: #707070;
     background: linear-gradient(rgb(140,140,140), rgb(110,110,110) 50%, rgb(92, 92, 92) 51%, rgb(130,130,130));
     border: 1px solid rgba(109, 109, 109, 0.445);
@@ -85,10 +87,70 @@ body {
 
 /* Main */
 
-#main {
+#container {
     width: 1440px;
-    height: 1315px;
+    height: 750px;
     margin: 0 auto;
+    color: white;
+    text-align: center;
     background: url(http://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
     background-size: 1440px 1315px;
+}
+
+#container a {
+    text-decoration: none;
+}
+
+#container a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#container h1 {
+    font-size: 42px;
+    line-height: 36px;
+    font-weight: 100;
+    font-style: normal;
+    margin: 25px;
+}
+
+#container h2 {
+    margin: 25px;
+    font-size: 32px;
+    font-weight:100;
+}
+
+#container h3 {
+    margin: 45px;
+    font-size: 22px;
+    line-height: 18px;
+    font-weight:100;
+}
+
+#main {
+    margin: auto;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+#text {
+    height: 50%;
+    width: 80%;
+    margin: auto;
+}
+
+#sub-images {
+    width: 1460px;
+    margin: 0 auto;
+}
+
+#sub-images img {
+    float: left;
+}
+
+
+/* Footer */
+
+footer {
+    clear: both;
 }
