@@ -141,6 +141,7 @@ body {
 
 #sub-images {
     width: 1460px;
+    height: 200px;
     margin: 0 auto;
 }
 
@@ -152,5 +153,50 @@ body {
 /* Footer */
 
 footer {
+    width: 55%;
+    margin: 25px auto;
     clear: both;
+    color: #6e6e6e;
+    font-size: .8334em;
+    line-height: 1.2;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:visited {
+    text-decoration: none;
+    color: #08c;
+}
+
+footer ul {
+    width: 60%;
+    padding: 0;
+    margin: 25px auto;
+    text-align: center;
+}
+
+footer li {
+    display: inline;
+    list-style: none;
+    padding: 0 15px;
+    border-right: 1px solid #aaaaaa;
+}
+
+footer li:first-child {
+    padding-left: 0;
+}
+
+footer li:last-child {
+    padding-right: 0;
+    border-right: none;
+}
+
+footer .left {
+    float: left;
+}
+
+footer .right {
+    float: right;
 }
